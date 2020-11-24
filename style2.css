@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  float: left;
+  width: 100%; }
+  
+
+
+ h2, h3 {
+  margin: 0px;
+  padding: 0px; }
+
+input {
+  font-family: 'Raleway', sans-serif;
+  outline: 0; }
+
+.container {
+  width: 1200px;
+  padding: 0 50px;
+  max-width: 1200px; }
+
+section {
+  float: left;
+  width: 100%; }
+  
+  .click-btn {
+  background: #f0932b;
+  border: 2px solid #ffbe76;
+  font-size: 16px;
+  font-weight: 300; }
+  .ckick-btn:hover {
+    background: #fff;
+    color: #f0932b; }
+	
+img {
+  max-width: 100%; }
+  
+  header .header-top {
+  background: #fcba68;
+  color: #fff;
+  padding: 7px 0 7px; }
+  header .header-top .web-url {
+    font-size: 12px;
+    border-bottom: 1px solid;
+    color: #fff;
+    line-height: 11px;
+    display: inline-block;
+    font-style: italic; }
+	
+	.recomended-sec {
+  text-align: center;
+  margin-bottom: 80px; }
+  .recomended-sec h2 {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0 15px;
+    background: #fff;
+    padding: 0 15px;
+    position: relative;
+    text-transform: uppercase;
+    color: #363636; }
+  .recomended-sec hr {
+    margin: 0;
+    margin-top: -20px;
+    border-top: 1px solid #999999; }
+  .recomended-sec .title {
+    margin-bottom: 70px; }
+  .recomended-sec .item {
+   white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+    border: 1px solid #d5d5d5;
+    padding: 36px 10px;
+	height: 422px;
+    cursor: pointer;
+    position: relative; }
+	
+	#imgdiv {
+		width=128px;
+		height=260px;
+	}
+    .recomended-sec .item img {
+      margin-bottom: 15px;
+      max-width: 100%; }
+    .recomended-sec .item h3 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin-bottom: 10px;
+      height: 22px;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+   
+   
+	
+	

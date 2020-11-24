@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#03a6f3">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="main.js"></script>
+
+    <header>
+        <div class="header-top">
+       
+        </div>
+        <div class="main-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo"></a>
+                   
+      
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      
+                        <div class="cart my-2 my-lg-0">
+                          
+                        </div>
+                        <form class="form-inline my-2 my-lg-0" method = "GET" action= "">
+                            <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search here..." >
+                           
+					
+                        </form>
+						  <button id="button"  class = "click-btn" type="button"  onclick="bookSearch()">click</button>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="recomended-sec">
+        <div id = "imgdiv" class="container">
+            <div class="title">
+                <h2> books</h2>
+                <hr>
+            </div>
+            <div class="row" id="results">
+					
+        </div>
+    </section>
+
+  
+    
+</body>
+
+</html>
